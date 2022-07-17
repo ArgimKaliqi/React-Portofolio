@@ -18,7 +18,7 @@ const intro = () => {
             </div>
           </div>
           <p className="i-desc">
-          I am a motivated and enthusiastic individual currently working towards my degree.
+          I am a motivated and enthusiastic individual cur rently working towards my degree.
 
         I continually strive to develop and enhance my knowledge whilst at university and take every 
         opportunity to gain further practical experience in my chosen field.

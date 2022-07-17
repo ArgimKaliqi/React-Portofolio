@@ -16,6 +16,7 @@ const About = () => {
         </div>
       </div>
       <div className="a-right">
+        <div className="a-text">
         <h1 className="a-title">About Me</h1>
         <p className="a-sub">
         Currently in the final year of my degree programme with a planned completion date of Jun 2023
@@ -28,6 +29,8 @@ const About = () => {
          good time management skills with a can do attitude and a willingness 
          to learn from those around me.
         </p>
+        </div>
+       
         <div className="a-award">
           <img src={Award} alt="" className="a-award-img" />
           <div className="a-award-texts">

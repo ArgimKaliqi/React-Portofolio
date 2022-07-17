@@ -75,6 +75,11 @@
     .experience__container {
       gap: 1rem;
     }
+
+    .s-h2{
+      margin-top: 3rem;
+      right: 25%;
+    }
   
     .experience__container > div {
       width: 100%;
