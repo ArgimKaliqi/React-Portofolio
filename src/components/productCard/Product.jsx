@@ -1,6 +1,6 @@
 import "./product.css"
 
-const Product = ({img,link}) =>{
+const Product = ({img,link,desc}) =>{
     return(
         <div className="p">
             <div className="p-browser">
@@ -9,9 +9,8 @@ const Product = ({img,link}) =>{
                 <div className="p-circle"></div>
             </div>
             <div className="p-comp">
-                <p className="p-comp-t">E-commerce store with .Net, React,Redux, C#, Stripe,Cloudinary,TypeScript,
-                EntityFramework, CoreIdentity Authentication etc. 
-
+                <p className="p-comp-t">
+                E-commerce store with .Net, React,Redux, C#, Stripe,Cloudinary,TypeScript, EntityFramework, CoreIdentity Authentication etc.
                </p>
             </div>
             <a href={link} target="_blank" rel="noreferrer">
