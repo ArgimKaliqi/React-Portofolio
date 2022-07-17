@@ -1,13 +1,24 @@
 .c{
-    height: 100vh;
+    height: 70vh;
     position: relative;
 }
 
-.c-bg{
-    width: 20px;
-    height: 100%;
-    position: absolute;
-    background-color: #7A86B6;
+
+.c-info{
+  border: 1px solid transparent;
+  border-radius: 2rem;
+  padding-left: 2rem;
+  background-color:#495C83;
+  transition: 0.5s ease;
+  width: 74%;
+  margin-top: 2rem;
+  
+}
+
+.c-info:hover {
+  background: transparent;
+  border-color:#495C83;
+  
 }
 
 
@@ -19,6 +30,7 @@
 .c-left{
     flex:1;
 }
+
 
 .c-right{
     flex: 1;
@@ -49,6 +61,8 @@
 
 .c-desc{
     font-weight:200;
+    margin-top: 2rem;
+    margin-bottom: 2.1rem;
 }
 
 form{
@@ -58,30 +72,41 @@ form{
 input {
     width: 50%;
     height: 50px;
-    border: none;
-    border-bottom: 1px solid black;
+    border-radius: 1rem;
+    background-color: #1B2430;
     margin: 10px 0px;
     font-size: 14px;
     padding-left: 10px;
-
+    border-color: #495C83;
+    color: white;
 }
 
 textarea{
     width: 100%;
     margin: 10px 0px;
     font-size: 14px;
+    border-radius: 1rem;
     padding-left: 10px;
+    background-color: #1B2430;
+    border-color: #495C83;
+    color: white;
 }
 
 
 button{
-    border:none;
+    border-radius: 1rem;
+    border-color: #495C83;
     padding: 15px;
     background-color: #7A86B6;
     color:white;
     font-weight: 500;
     cursor: pointer;
 
+}
+
+button:hover{
+  transition: 0.3s ease;
+  background-color: transparent;
 }
 
 @media screen and (max-width: 480px) {

@@ -27,6 +27,18 @@
     background-color: black;
 }
 
+#c1 {
+    background-color: red;
+}
+
+#c2{
+    background-color: rgb(196, 164, 60);
+}
+
+#c3{
+    background-color: green;
+}
+
 .p-img{
     width: 100%;
     height: 100%;

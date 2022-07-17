@@ -1,10 +1,9 @@
 import "./contact.css";
-import Phone from "../../img/phone.png"
-import Email from "../../img/email.png"
-import Address from "../../img/address.png"
-import { useContext, useRef, useState } from "react";
+import { useRef, useState } from "react";
 import emailjs from '@emailjs/browser';
-
+import {FiPhoneCall} from "react-icons/fi";
+import {AiOutlineMail} from "react-icons/ai";
+import {GoLocation} from "react-icons/go";
 
 const Contact = () => {
 
@@ -35,15 +34,15 @@ const Contact = () => {
                 </h1>
                 <div className="c-info">
                     <div className="c-info-item">
-                        <img src={Phone} alt="" className="c-icon" />
+                         <FiPhoneCall className="c-icon"/>
                         +383 45 613 226
                     </div>
                     <div className="c-info-item">
-                        <img src={Email} alt="" className="c-icon" />
+                        <AiOutlineMail className="c-icon" />
                         akaliqi@outlook.com
                     </div>
                     <div className="c-info-item">
-                        <img src={Address} alt="" className="c-icon" />
+                        <GoLocation className="c-icon" />
                         Lagjia Dardani, Prishtine
                     </div>
                 </div>
@@ -59,7 +58,7 @@ const Contact = () => {
             <input type="text" placeholder="Email" name="user_email" />
             <textarea  rows="5" placeholder="Message" name="message" />
             <button >Submit</button>
-            {done &&  "Thank you..."}
+            {done &&  "Your message has been sent succesfully!"}
             </form>
         </div>
       </div>
