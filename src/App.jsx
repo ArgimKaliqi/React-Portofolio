@@ -5,7 +5,13 @@ import ProductList from "./components/productList/ProductList";
 import Skills from "./components/skills/Skills";
 import "./App.css";
 
+
+
+
 const App = () =>{
+
+ 
+
   return <div>
     <Intro/>
     <About/>
