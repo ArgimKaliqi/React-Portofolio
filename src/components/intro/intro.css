@@ -161,6 +161,11 @@
       text-align: center;
       height: 100%;
     }
+    
+    .i-right{
+        align-content: center;
+        margin-right: 2rem;
+        }
   
     .i-desc{
       display: none;
